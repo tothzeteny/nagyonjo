@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Füttyös Kokó Jr.</title>
+    <link rel="stylesheet" href="./stilus.css">
+</head>
+<body>
+    <header>
+        <img class="rend" src="./img/rendorseg1.png" onclick="window.location.href = 'index.html';">
+        <h1>KÖRÖZÉSI TOPLISTA</h1>
+        <h2>Füttyös Kokó Jr.</h2>
+    </header>
+    <section id="rendorseg">
+        <img class="center-image" src=".//img/robi3.JPG" id="ci">
+        <div id="demo">
+            <h2>Füttyös Kokó Jr. kapcsolatos információk</h2>
+            <button type="button" onclick="loadDoc()">Tovább az infókhoz</button>
+            </div>
+    <div id="ci" class="tarkaf">
+    <form target="_self" enctype="application/x-www-form-urlencoded">
+        <label for="firstname">Név:</label>
+        <input type="text" name="firstname" required><br>
+        <label for="telef">Telefonszám:</label>
+        <input type="number" name="telef" required><br>
+        <label for="mail">Email cím:</label>
+        <input type="text" name="firstname" required><br>
+        <label for="lakcim">Lakcím:</label>
+        <input type="text" name="lakcim" required><br>
+        <button id="myButton">JELENTKEZES</button>
+      </form>
+    </section>
+</div>
+<script src="./robi.js"></script>
+</body>
+</html>
